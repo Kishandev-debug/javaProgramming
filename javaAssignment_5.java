@@ -1,3 +1,5 @@
+// Question no-02
+    // Check the number is prime number or not 
 import java.util.Scanner;
 public class javaAssignment_5 {
     public static void findPrime(int arr[]) {
