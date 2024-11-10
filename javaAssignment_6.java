@@ -1,3 +1,5 @@
+// Question no-04
+// Given String is palindrom or not 
 import  java.util.Scanner;
 public class javaAssignment_6 {
 public static void main(String[] args) {
