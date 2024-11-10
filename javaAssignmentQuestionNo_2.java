@@ -1,3 +1,9 @@
+// 5 4 3 2 1
+// 4 3 2 1
+// 3 2 1
+// 2 1
+// 1
+// Question no-8 
 import java.util.Scanner;
 public class javaAssignmentQuestionNo_2 {
 public static void main(String[] args) {
