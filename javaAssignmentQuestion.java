@@ -1,9 +1,14 @@
+
+//1
+// 1 2
+// 1 2 3
+// 1 2 3 4
 import java.util.Scanner;
 
 public class javaAssignmentQuestion {
     public static void main(String args[]) {
 
-        // Question number -01
+        // Question number -07
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter value of n");
