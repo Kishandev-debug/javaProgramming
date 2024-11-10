@@ -1,3 +1,5 @@
+// Find Factorial for n term and also calculate sum of the factrioal term 
+// Question no-01
 import java.util.Scanner;
 public class javaAssignment_4 {
    public static void main(String args[]){
