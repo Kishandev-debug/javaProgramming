@@ -5,7 +5,7 @@
 // 1 2 3 4
 import java.util.Scanner;
 
-public class javaAssignmentQuestion {
+public class Pyramid{
     public static void main(String args[]) {
 
         // Question number -07
