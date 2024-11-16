@@ -1,5 +1,8 @@
 // Questio no-05
-// java program to find fibonacci series 
+// Write a program that takes an integer input n and stores the first n terms
+// of the Fibonacci sequence in an array. Then, print the array. For example,
+// if the user enters 7, store and display the first 7 terms of the Fibonacci
+// sequence: 0, 1, 1, 2, 3, 5, 8.
 import java.util.Scanner;
 public class javaAssignment_7 {
     public static void main(String[] args) {
