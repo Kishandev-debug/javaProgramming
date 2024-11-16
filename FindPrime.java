@@ -1,7 +1,9 @@
 // Question no-02
-    // Check the number is prime number or not 
+//     Create a program that accepts 10 integers from the user, stores them in
+// an array, and then prints only the prime numbers in that array.
+// Implement a separate method to check if a number is prime.
 import java.util.Scanner;
-public class javaAssignment_5 {
+public class FindPrime {
     public static void findPrime(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             int num = arr[i];
