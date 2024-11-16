@@ -1,4 +1,8 @@
-import java.util.Scanner;
+//Write a Java program that takes an integer input from the user and
+// calculates the factorial of the number. Then, write a method to calculate
+// the sum of the digits of this factorial. For example, if the user enters 5,
+// calculate 5! (120) and then find the sum of its digits (1 + 2 + 0 = 3).
+// import java.util.Scanner;
 
 public class javaAssignment_4 {
    public static int sumVar(int val) {
