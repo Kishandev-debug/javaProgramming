@@ -5,7 +5,7 @@
 // 1
 // Question no-8 
 import java.util.Scanner;
-public class javaAssignmentQuestionNo_2 {
+public class InvertedTriangle {
 public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter the value of n");
