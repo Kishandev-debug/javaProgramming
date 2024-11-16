@@ -16,6 +16,12 @@ public class SecondLargest {
             }
         }
     }
+     public static void secondLargest(int arr[]) {
+        sort(arr);
+
+        System.out.println("Second largest element in array is : " + arr[arr.length - 2]);
+    }
+
 public static void main(String[] args) {
 Scanner sc=new Scanner(System.in);
 System.out.println("enter the size of array");
@@ -25,10 +31,6 @@ System.out.println("enter value in array");
 for(int i=0;i<n;i++){
     arr[i]=sc.nextInt();
 }
-sort(arr);
-// for(int i=0;i<arr.length;i++){
-//     System.out.print(arr[i]+" ");
-// }
-System.out.println("Second largest element in array is : "+arr[arr.length-2]);
+secondLargest(arr);
 }    
 }
