@@ -13,16 +13,21 @@ public class Factorial {
       }
       return sum;
    }
+   public static int factorialNum(int fact){
+      int factroial = 1;
+        for (int i = n; i >= 1; i--) {
+         factroial *= i;
+      }
+      return factroial;
+   }
 
    public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter number to find factroial");
       int n = sc.nextInt();
-      int factroial = 1;
-      for (int i = n; i >= 1; i--) {
-         factroial *= i;
-      }
-      System.out.println("factroial of the " + n + " is " + factroial);
+      
+    
+      System.out.println("factroial of the " + n + " is " + factorialNum(n);
 
       System.out.println("Sum is : " + sumVar(factroial));
    }
