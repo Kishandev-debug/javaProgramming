@@ -1,4 +1,6 @@
-// menu drive calculator 
+// Question no-3
+// menu driven calculator
+
 import java.util.Scanner;
 public class javaAssignment_9 {
     public static void main(String[] args) {
