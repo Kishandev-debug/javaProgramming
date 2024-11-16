@@ -5,7 +5,7 @@
 //     Question no-09
 
 import java.util.Scanner;
-public class javaAssignmentQuestionNo_3 {
+public class FloydTriangle {
 public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter the value of n");
