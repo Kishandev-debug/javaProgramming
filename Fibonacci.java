@@ -4,7 +4,7 @@
 // if the user enters 7, store and display the first 7 terms of the Fibonacci
 // sequence: 0, 1, 1, 2, 3, 5, 8.
 import java.util.Scanner;
-public class javaAssignment_7 {
+public class Fibonacci {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter number");
