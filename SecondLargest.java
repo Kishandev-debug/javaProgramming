@@ -1,5 +1,7 @@
-// Find Second Larget element in array 
-
+// Question no-6
+// Write a program that accepts n integers from the user (where n is also
+// provided by the user). Store the numbers in an array and write a method
+// to find and display the second largest number in the array.
 import java.util.Scanner;
 
 public class javaAssignment_8 {
