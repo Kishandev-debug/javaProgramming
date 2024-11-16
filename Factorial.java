@@ -27,7 +27,7 @@ public class Factorial {
       int n = sc.nextInt();
       
     
-      System.out.println("factroial of the " + n + " is " + factorialNum(n);
+      System.out.println("factroial of the " + n + " is " + factorialNum(n));
 
       System.out.println("Sum is : " + sumVar(factroial));
    }
