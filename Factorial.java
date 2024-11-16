@@ -2,8 +2,9 @@
 // calculates the factorial of the number. Then, write a method to calculate
 // the sum of the digits of this factorial. For example, if the user enters 5,
 // calculate 5! (120) and then find the sum of its digits (1 + 2 + 0 = 3).
-// import java.util.Scanner;
 
+
+import java.util.Scanner;
 public class Factorial {
    public static int sumVar(int val) {
       String str = Integer.toString(val);
@@ -15,7 +16,7 @@ public class Factorial {
    }
    public static int factorialNum(int fact){
       int factroial = 1;
-        for (int i = n; i >= 1; i--) {
+        for (int i = fact; i >= 1; i--) {
          factroial *= i;
       }
       return factroial;
@@ -25,10 +26,10 @@ public class Factorial {
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter number to find factroial");
       int n = sc.nextInt();
-      
+int result=factorialNum(n);
     
-      System.out.println("factroial of the " + n + " is " + factorialNum(n));
+      System.out.println("factroial of the " + n + " is " + result );
 
-      System.out.println("Sum is : " + sumVar(factroial));
+      System.out.println("Sum is : " + sumVar(result));
    }
 }
