@@ -4,7 +4,7 @@
 // calculate 5! (120) and then find the sum of its digits (1 + 2 + 0 = 3).
 // import java.util.Scanner;
 
-public class javaAssignment_4 {
+public class Factorial {
    public static int sumVar(int val) {
       String str = Integer.toString(val);
       int sum = 0;
