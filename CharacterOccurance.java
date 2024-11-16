@@ -1,7 +1,7 @@
 // Search word and count occurance or character in a String 
 
 import java.util.Scanner;
-public class javaAssignment_10 {
+public class CharacterOccurance {
     public static int occurance(String str,char searchChar){
         int count=0;
         for(int i=0;i<str.length();i++){
