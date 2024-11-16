@@ -4,7 +4,7 @@
 // reverse the string and compare it to the original to determine if it’s a
 // palindrome.
 import  java.util.Scanner;
-public class javaAssignment_6 {
+public class Palindrome{
     public static void palindrome(String str)
     {
          String temp="";
