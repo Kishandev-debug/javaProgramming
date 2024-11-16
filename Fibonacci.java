@@ -5,6 +5,12 @@
 // sequence: 0, 1, 1, 2, 3, 5, 8.
 import java.util.Scanner;
 public class Fibonacci {
+    public static void fibonacciSeries(int arr[],int n){
+        for(int i=2;i<n;i++){
+            arr[i]=arr[i-1]+ arr[i-2];
+            System.out.print(arr[i]+" ");
+        }
+    }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter number");
@@ -14,10 +20,8 @@ public class Fibonacci {
         arr[1]=1;
         System.out.print(arr[0]+" ");
         System.out.print(arr[1]+" ");
-        for(int i=2;i<n;i++){
-            arr[i]=arr[i-1]+ arr[i-2];
-            System.out.print(arr[i]+" ");
-        }
+        fibonacciSeries(arr, n);
+       
     }
     
 }
