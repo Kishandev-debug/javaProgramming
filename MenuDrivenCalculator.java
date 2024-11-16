@@ -2,7 +2,7 @@
 // menu driven calculator
 
 import java.util.Scanner;
-public class javaAssignment_9 {
+public class MenuDrivenCalculator{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 int choice;
